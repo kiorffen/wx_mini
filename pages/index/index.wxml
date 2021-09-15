@@ -15,6 +15,7 @@
     <block wx:else>
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      <map longitude="广州经度" latitude="广州纬度"></map>
     </block>
   </view>
   <view class="usermotto">
